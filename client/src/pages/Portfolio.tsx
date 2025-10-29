@@ -72,9 +72,15 @@ export default function Portfolio() {
 
   const experience = [
     {
+      company: "Verus",
+      position: "Full Stack Developer",
+      period: "Jan 2025 - Present",
+      description: "Leading development of modern web applications with focus on scalability and performance. Building full-stack solutions using cutting-edge technologies and best practices.",
+    },
+    {
       company: "BNY Mellon",
       position: "Full Stack Developer",
-      period: "May 2024 - Present",
+      period: "May 2024 - Dec 2024",
       description: "Designed and developed enterprise-scale web applications using Django, Flask, and FastAPI, improving backend performance and reducing API latency by 30%. Built responsive frontends with React.js and TypeScript. Automated CI/CD pipelines with Jenkins, Docker, and Kubernetes on AWS. Integrated AI-powered anomaly detection models and machine learning APIs for predictive analytics.",
     },
     {
@@ -82,12 +88,6 @@ export default function Portfolio() {
       position: "Full Stack Developer",
       period: "Jan 2022 - July 2023",
       description: "Developed RESTful APIs with Flask, PostgreSQL, and Docker, reducing average response time by 30%. Optimized backend logic and SQL queries, cutting application load times by 40%. Implemented frontend performance optimizations lowering API response times from 200ms to <20ms. Built serverless information retrieval system on AWS achieving 80% faster query response times.",
-    },
-    {
-      company: "Smart Bridge",
-      position: "Web Development Intern",
-      period: "Apr 2021 - July 2021",
-      description: "Built a full-stack food ordering application with Django backend and React frontend, including calorie tracking and fitness features. Designed secure, scalable APIs with Django REST Framework and optimized PostgreSQL queries for efficient data handling.",
     },
   ];
 
