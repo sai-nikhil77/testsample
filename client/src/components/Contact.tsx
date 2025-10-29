@@ -24,6 +24,8 @@ export default function Contact({
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    company: "",
+    position: "",
     message: "",
   });
   const { toast } = useToast();
@@ -49,7 +51,7 @@ export default function Contact({
       title: "Message sent!",
       description: "Thank you for reaching out. I'll get back to you soon.",
     });
-    setFormData({ name: "", email: "", message: "" });
+    setFormData({ name: "", email: "", company: "", position: "", message: "" });
   };
 
   return (
@@ -89,6 +91,32 @@ export default function Contact({
                     }
                     required
                     data-testid="input-contact-email"
+                  />
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="company">Company</Label>
+                  <Input
+                    id="company"
+                    placeholder="Your company"
+                    value={formData.company}
+                    onChange={(e) =>
+                      setFormData({ ...formData, company: e.target.value })
+                    }
+                    data-testid="input-contact-company"
+                  />
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="position">Position</Label>
+                  <Input
+                    id="position"
+                    placeholder="Your position"
+                    value={formData.position}
+                    onChange={(e) =>
+                      setFormData({ ...formData, position: e.target.value })
+                    }
+                    data-testid="input-contact-position"
                   />
                 </div>
 
