@@ -8,89 +8,99 @@ import projectImage from "@assets/stock_images/modern_clean_laptop__6c491831.jpg
 
 export default function Portfolio() {
   const personalInfo = {
-    name: "Alex Johnson",
+    name: "Sai Nikhil Somepalli",
     title: "Full Stack Software Developer",
-    email: "alex.johnson@example.com",
-    linkedinUrl: "https://linkedin.com/in/alexjohnson",
-    githubUrl: "https://github.com/alexjohnson",
+    email: "ssomepal@buffalo.edu",
+    linkedinUrl: "https://www.linkedin.com/in/sainikhilsomepalli/",
+    githubUrl: "https://github.com/sai-nikhil77",
   };
 
   const biography = [
-    "I'm a passionate software developer with over 5 years of experience building scalable web applications. My journey in tech started with a curiosity about how things work, and has evolved into a career focused on creating meaningful digital experiences.",
-    "I specialize in full-stack development with a strong emphasis on clean code, user experience, and performance optimization. I thrive in collaborative environments and enjoy mentoring junior developers.",
-    "When I'm not coding, you'll find me contributing to open-source projects, writing technical blog posts, or exploring the latest trends in software architecture.",
+    "I'm a Full Stack Developer with a Master's in Computer Science from University at Buffalo and hands-on experience building enterprise-scale web applications. Currently working at BNY Mellon, I specialize in creating high-performance backend services and intuitive frontend experiences.",
+    "My expertise spans the full technology stack - from designing RESTful and GraphQL APIs with Django, Flask, and FastAPI to building responsive React applications with TypeScript. I'm passionate about cloud architecture, having achieved AWS Solutions Architect certification, and regularly work with Docker, Kubernetes, and CI/CD pipelines.",
+    "I thrive on solving complex problems and optimizing performance - whether it's reducing API latency by 30%, cutting application load times by 40%, or implementing AI-powered features for enhanced system reliability.",
   ];
 
   const skills = [
-    "React",
-    "TypeScript",
-    "Node.js",
     "Python",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Django",
+    "Flask",
+    "FastAPI",
+    "Spring Boot",
+    "GraphQL",
     "PostgreSQL",
+    "MongoDB",
+    "MySQL",
     "AWS",
     "Docker",
-    "GraphQL",
-    "REST APIs",
+    "Kubernetes",
+    "Jenkins",
     "Git",
-    "CI/CD",
-    "Agile",
   ];
 
   const projects = [
     {
-      id: "ecommerce-platform",
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.",
+      id: "serverless-info-system",
+      title: "Serverless Information Retrieval System",
+      description: "Built a serverless information retrieval system on AWS using S3, Lambda, DynamoDB, and API Gateway, achieving 80% faster query response times and reducing operational costs by 40%.",
       image: projectImage,
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      githubUrl: "https://github.com/alexjohnson/ecommerce-platform",
-      liveUrl: "https://demo-ecommerce.example.com",
+      technologies: ["AWS Lambda", "DynamoDB", "S3", "API Gateway", "Python"],
+      githubUrl: "https://github.com/sai-nikhil77",
     },
     {
-      id: "task-manager",
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates, team collaboration features, and intelligent priority sorting.",
+      id: "food-ordering-app",
+      title: "Full-Stack Food Ordering Application",
+      description: "Developed a comprehensive food ordering platform with Django backend and React frontend, featuring calorie tracking, fitness integration, and secure payment processing.",
       image: projectImage,
-      technologies: ["TypeScript", "Next.js", "Prisma", "WebSocket"],
-      githubUrl: "https://github.com/alexjohnson/task-manager",
-      liveUrl: "https://tasks.example.com",
+      technologies: ["Django", "React", "PostgreSQL", "Django REST Framework"],
+      githubUrl: "https://github.com/sai-nikhil77",
     },
     {
-      id: "weather-dashboard",
-      title: "Weather Dashboard",
-      description: "Interactive weather dashboard providing detailed forecasts, historical data visualization, and location-based alerts.",
+      id: "enterprise-web-apps",
+      title: "Enterprise Web Applications",
+      description: "Designed and developed enterprise-scale applications at BNY Mellon using modern frameworks, improving backend performance and reducing API latency by 30% while ensuring WCAG compliance.",
       image: projectImage,
-      technologies: ["React", "D3.js", "OpenWeather API"],
-      githubUrl: "https://github.com/alexjohnson/weather-dashboard",
+      technologies: ["Django", "Flask", "FastAPI", "React", "TypeScript", "AWS"],
+      githubUrl: "https://github.com/sai-nikhil77",
     },
   ];
 
   const experience = [
     {
-      company: "Tech Innovations Inc.",
-      position: "Senior Full Stack Developer",
-      period: "2021 - Present",
-      description: "Lead development of cloud-based SaaS applications, mentor junior developers, and architect scalable microservices solutions serving 100K+ users.",
-    },
-    {
-      company: "Digital Solutions Corp",
+      company: "BNY Mellon",
       position: "Full Stack Developer",
-      period: "2019 - 2021",
-      description: "Developed and maintained multiple client-facing web applications using React and Node.js. Improved application performance by 40% through optimization.",
+      period: "May 2024 - Present",
+      description: "Designed and developed enterprise-scale web applications using Django, Flask, and FastAPI, improving backend performance and reducing API latency by 30%. Built responsive frontends with React.js and TypeScript. Automated CI/CD pipelines with Jenkins, Docker, and Kubernetes on AWS. Integrated AI-powered anomaly detection models and machine learning APIs for predictive analytics.",
     },
     {
-      company: "StartupXYZ",
-      position: "Junior Developer",
-      period: "2018 - 2019",
-      description: "Built responsive web interfaces and RESTful APIs. Collaborated with cross-functional teams in an agile environment.",
+      company: "Sage Softtech",
+      position: "Full Stack Developer",
+      period: "Jan 2022 - July 2023",
+      description: "Developed RESTful APIs with Flask, PostgreSQL, and Docker, reducing average response time by 30%. Optimized backend logic and SQL queries, cutting application load times by 40%. Implemented frontend performance optimizations lowering API response times from 200ms to <20ms. Built serverless information retrieval system on AWS achieving 80% faster query response times.",
+    },
+    {
+      company: "Smart Bridge",
+      position: "Web Development Intern",
+      period: "Apr 2021 - July 2021",
+      description: "Built a full-stack food ordering application with Django backend and React frontend, including calorie tracking and fitness features. Designed secure, scalable APIs with Django REST Framework and optimized PostgreSQL queries for efficient data handling.",
     },
   ];
 
   const education = [
     {
-      institution: "University of Technology",
-      degree: "Bachelor of Science in Computer Science",
-      period: "2014 - 2018",
+      institution: "University at Buffalo",
+      degree: "Master of Science in Computer Science",
+      period: "Aug 2023 - Dec 2024",
+    },
+    {
+      institution: "VIT Vellore",
+      degree: "B. Tech in Computer Science and Engineering",
+      period: "2018 - 2022",
     },
   ];
 
@@ -98,17 +108,12 @@ export default function Portfolio() {
     {
       name: "AWS Certified Solutions Architect",
       issuer: "Amazon Web Services",
-      year: "2022",
+      year: "2024",
     },
     {
-      name: "Professional Scrum Master I",
-      issuer: "Scrum.org",
-      year: "2021",
-    },
-    {
-      name: "MongoDB Certified Developer",
-      issuer: "MongoDB University",
-      year: "2020",
+      name: "AWS Certified Cloud Practitioner",
+      issuer: "Amazon Web Services",
+      year: "2024",
     },
   ];
 
@@ -131,7 +136,7 @@ export default function Portfolio() {
       <Hero
         name={personalInfo.name}
         title={personalInfo.title}
-        description="Passionate about building elegant solutions to complex problems. Specializing in modern web technologies and cloud architecture."
+        description="Master's in Computer Science from University at Buffalo. Building high-performance enterprise applications at BNY Mellon. AWS Certified Solutions Architect passionate about full-stack development and cloud architecture."
         linkedinUrl={personalInfo.linkedinUrl}
         githubUrl={personalInfo.githubUrl}
         email={personalInfo.email}
