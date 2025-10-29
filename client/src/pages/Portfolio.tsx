@@ -74,8 +74,8 @@ export default function Portfolio() {
     {
       company: "Verus",
       position: "Full Stack Developer",
-      period: "Jan 2025 - Present",
-      description: "Leading development of modern web applications with focus on scalability and performance. Building full-stack solutions using cutting-edge technologies and best practices.",
+      period: "Sep 2024 - Present",
+      description: "Developing full-stack web applications using React for frontend and Node.js for backend services. Working with SQL Server databases for data management and persistence. Leveraging OpenAI tools including Replit and Bolt to accelerate development workflows and enhance application capabilities with AI-powered features.",
     },
     {
       company: "BNY Mellon",
