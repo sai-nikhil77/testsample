@@ -32,20 +32,12 @@ export default function Projects({ projects }: ProjectsProps) {
               className="overflow-hidden hover-elevate transition-all"
               data-testid={`card-project-${project.id}`}
             >
-              <div className="aspect-video w-full overflow-hidden bg-muted">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              
               <CardHeader>
                 <h3 className="text-xl font-semibold">{project.title}</h3>
               </CardHeader>
               
               <CardContent className="space-y-4">
-                <p className="text-base text-muted-foreground line-clamp-3">
+                <p className="text-base text-muted-foreground">
                   {project.description}
                 </p>
                 
